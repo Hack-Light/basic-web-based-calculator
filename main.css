@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e8e8e8;
+  width: 100%;
+}
+main {
+  background: #ffffff;
+  width: 30%;
+  margin: 30px auto 10px auto;
+  height: 87vh;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 7px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.display {
+  display: flex;
+  width: 97%;
+  background: #e8e8e8;
+  margin: 0px auto 10px auto;
+  height: 200px;
+  border-radius: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+  font-size: 35px;
+}
+
+.btn-parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "clear clear-all percentage divide"
+    "seven eight nine multiply"
+    "four five six subtract"
+    "one two three add"
+    "zeroh decimal . result";
+
+  height: 440px;
+  padding-top: 10px;
+  font-size: 20px;
+  justify-items: center;
+  margin-bottom: 15px;
+}
+
+#b1 {
+  grid-area: one;
+}
+#b2 {
+  grid-area: two;
+}
+#b3 {
+  grid-area: three;
+}
+#b4 {
+  grid-area: four;
+}
+#b5 {
+  grid-area: five;
+}
+#b6 {
+  grid-area: six;
+}
+#b7 {
+  grid-area: seven;
+}
+#b8 {
+  grid-area: eight;
+}
+#b9 {
+  grid-area: nine;
+}
+#b0 {
+  grid-area: zeroh;
+}
+
+#divide {
+  grid-area: divide;
+}
+#add {
+  grid-area: add;
+}
+#subtract {
+  grid-area: subtract;
+}
+#multiply {
+  grid-area: multiply;
+}
+
+#decimal {
+  grid-area: decimal;
+}
+#percentage {
+  grid-area: percentage;
+}
+#result {
+  grid-area: result;
+}
+
+p {
+  background: #e8e8e8;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  max-height: 50px;
+  line-height: 50px;
+}
+
+.buttons-o {
+  background: rgb(223, 138, 138);
+}
