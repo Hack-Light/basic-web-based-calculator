@@ -39,11 +39,11 @@ main {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-    "clear clear-all percentage divide"
+    "clear-all . percentage divide"
     "seven eight nine multiply"
     "four five six subtract"
     "one two three add"
-    "zeroh decimal . result";
+    "zeroh decimal result result";
 
   height: 440px;
   padding-top: 10px;
@@ -106,6 +106,14 @@ main {
   grid-area: result;
 }
 
+#clear {
+  grid-area: clear;
+}
+
+#clear-all {
+  grid-area: clear-all;
+}
+
 p {
   background: rgba(232, 232, 232, 0.5);
   width: 50px;
@@ -129,6 +137,11 @@ p:hover {
 
 .buttons-o:hover {
   background: rgba(223, 138, 138, 1);
+}
+
+#result {
+  border-radius: 10px;
+  width: 70%;
 }
 
 @media (max-width: 767.8px) {
