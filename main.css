@@ -148,7 +148,7 @@ p:hover {
   main {
     width: 70%;
     margin: 30px auto 10px auto;
-    height: 90vh;
+    max-height: 90vh;
     padding-top: 7px;
   }
 }
@@ -156,7 +156,21 @@ p:hover {
   main {
     width: 90%;
     margin: 30px auto 10px auto;
-    height: 92vh;
+    max-height: 92vh;
     padding-top: 7px;
+  }
+
+  p {
+    width: 30px;
+    height: 30px;
+    max-height: 30px;
+    line-height: 30px;
+  }
+  .btn-parent {
+    margin-top: 2em;
+  }
+
+  .display {
+    height: 100px;
   }
 }
