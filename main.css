@@ -148,7 +148,7 @@ p:hover {
   main {
     width: 70%;
     margin: 30px auto 10px auto;
-    max-height: 90vh;
+    max-height: 350;
     padding-top: 7px;
   }
 }
