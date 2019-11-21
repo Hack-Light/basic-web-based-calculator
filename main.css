@@ -37,7 +37,7 @@ main {
 .btn-parent {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: repeat(5, 1fr);
   grid-template-areas:
     "clear-all . percentage divide"
     "seven eight nine multiply"
@@ -168,7 +168,7 @@ p:hover {
   }
   .btn-parent {
     margin-top: 2em;
-    height: 300px;
+    height: 250px;
   }
 
   .display {
