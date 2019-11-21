@@ -168,6 +168,7 @@ p:hover {
   }
   .btn-parent {
     margin-top: 2em;
+    height: 300px;
   }
 
   .display {
